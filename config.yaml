@@ -1,4 +1,4 @@
-baseURL: https://external-secrets-operator.app/
+baseURL: https://www.external-secrets-operator.app/
 languageCode: en-us
 title: External Secrets Operator
 theme: hugo-bearblog
