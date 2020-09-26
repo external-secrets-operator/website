@@ -1,0 +1,21 @@
+baseURL: https://external-secrets-operator.app/
+languageCode: en-us
+title: External Secrets Operator
+theme: hugo-bearblog
+author: ESO Team
+copyright: Copyright © 2020, ESO Team.
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+ignoreErrors:
+  - error-disable-taxonomy
+permalinks:
+  blog: "/:slug/"
+  tags: "/blog/:slug"
+params:
+  description: Kubernetes operator that sync secrets and configmaps from external systems like Vault, Consul and others
+  favicon: "images/favicon.png"
+  images:
+    - "images/share.png"
+  title: External Secrets Operator
+  hideMadeWithLine: true
